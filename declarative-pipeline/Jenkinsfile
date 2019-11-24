@@ -9,7 +9,7 @@ pipeline {
 		}
 		stage('Two') {
 			steps {
-				input('In pipeline, We take decision. Can we proceed?')
+				input('In pipeline, We take decision. Can we proceed')
 			}
 		}
 		stage('Three') {
